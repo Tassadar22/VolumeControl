@@ -1,0 +1,9 @@
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\bin\Debug\Volumecontrol.exe.config
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\bin\Debug\Volumecontrol.exe
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\bin\Debug\Volumecontrol.pdb
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\bin\Debug\AudioSwitcher.AudioApi.dll
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\obj\Debug\Volumecontrol.csprojResolveAssemblyReference.cache
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\obj\Debug\Volumecontrol.csproj.CoreCompileInputs.cache
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\obj\Debug\Volumecontrol.exe
+c:\users\seamas\source\repos\Volumecontrol\Volumecontrol\obj\Debug\Volumecontrol.pdb
