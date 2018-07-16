@@ -15,6 +15,7 @@ namespace Volumecontrol
             string[] arg = Environment.GetCommandLineArgs();
             string volumeInstructions = string.Empty;
             double currentVolume = defaultPlaybackDevice.Volume;
+            bool isOdd = currentVolume % 2 == 0;
             if (arg.Count()>1)
             {
                 volumeInstructions = arg[1];
@@ -22,11 +23,33 @@ namespace Volumecontrol
             switch(volumeInstructions)
             {
                 case "incBy2":
-                    currentVolume += 2;
+                    if (currentVolume % 2 == 0)
+                    {
+                        currentVolume += 2;
+                    }
+                    else
+                    {
+                        currentVolume += 3;
+                    }
+                    defaultPlaybackDevice.Volume = currentVolume;
+                    break;
+                case "incBy5":
+                    currentVolume += 5;
                     defaultPlaybackDevice.Volume = currentVolume;
                     break;
                 case "decBy2":
-                    currentVolume -= 2;
+                    if (currentVolume % 2 == 0)
+                    {
+                        currentVolume -= 2;
+                    }
+                    else
+                    {
+                        currentVolume -= 3;
+                    }
+                    defaultPlaybackDevice.Volume = currentVolume;
+                    break;
+                case "decBy5":
+                    currentVolume -= 5;
                     defaultPlaybackDevice.Volume = currentVolume;
                     break;
             }
